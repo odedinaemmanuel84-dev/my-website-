@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul id="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-text">
+      <h1>Hello, I’m Emmanuel 👋</h1>
+      <p>I design and build modern, responsive, and professional websites for businesses and individuals.</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate web developer who loves helping clients grow their online presence through creative and functional websites. My mission is to deliver clean, fast, and responsive designs that stand out.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="service-container">
+      <div class="service">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Web Development</h3>
+        <p>Custom websites built with modern technologies that are fast, responsive, and user-friendly.</p>
+      </div>
+      <div class="service">
+        <i class="fas fa-paint-brush"></i>
+        <h3>UI/UX Design</h3>
+        <p>Beautiful and intuitive designs tailored to your brand and target audience.</p>
+      </div>
+      <div class="service">
+        <i class="fas fa-search"></i>
+        <h3>SEO Optimization</h3>
+        <p>Boost your visibility on search engines and attract more customers to your business.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="images/project1.jpg" alt="Project 1">
+        <h3>Business Website</h3>
+      </div>
+      <div class="project">
+        <img src="images/project2.jpg" alt="Project 2">
+        <h3>E-commerce Store</h3>
+      </div>
+      <div class="project">
+        <img src="images/project3.jpg" alt="Project 3">
+        <h3>Portfolio Site</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="#hero">Home</a> | 
+      <a href="#about">About</a> | 
+      <a href="#services">Services</a> | 
+      <a href="#projects">Projects</a> | 
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <p>© 2025 My Portfolio | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
